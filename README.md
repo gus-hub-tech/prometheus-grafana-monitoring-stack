@@ -138,8 +138,10 @@ I will:
 - Start up a Node Exporter on localhost / remote
 - Start up a Prometheus instance on localhost /remote that's configured to scrape metrics from the running Node Exporter
 - Metrics specific to the Node Exporter are prefixed with node_ and include metrics like node_cpu_seconds_total and node_exporter_build_info.
-  Example metrics:
+- Example metrics:
+  
   ![alt text](images/example-metrics.png)
+  
   ## Installing and running the Node Exporter
 ```bash
 # Download the tarball
@@ -159,7 +161,10 @@ chmod +x node_exporter
 ![alt text](images/node_exporter.png)
 
 Node Exporter is now running and exposing metrics on port http://16.28.47.88:9100/meterics
-<video controls src="node-exporter-metrics.mp4" title="Title"></video>
+
+https://github.com/user-attachments/assets/5be1008c-50be-4c3a-9e57-7335baf5784b
+
+
 The Node Exporter is now exposing metrics that Prometheus can scrape
 
 ## Find specific metrics you care about
